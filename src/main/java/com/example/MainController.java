@@ -29,6 +29,7 @@ public class MainController {
         double cSide = Double.parseDouble(cSideField.getText());
         Double area = Triangle.calcArea(aSide, bSide, cSide);
         areaField.setText(area.toString());
+        Storage.writeContent(area.toString());
     }
 
 }
