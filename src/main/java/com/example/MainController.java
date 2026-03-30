@@ -20,7 +20,7 @@ public class MainController {
 
     @FXML
     void onClickCalcButton(ActionEvent event) {
-
+        startCalc();
     }
 
     void startCalc() {
